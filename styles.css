@@ -58,6 +58,7 @@ form {
     min-width: 40%;
     gap: 1em;
     padding: 20px 10px;
+    position: relative;
 }
 
 p {
@@ -103,3 +104,18 @@ button:hover {
     text-align: center;
     font-size: 18px;
 }
+
+.warning {
+    color: red;
+}
+
+.time {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-weight: bold;
+}
+
+
+
+
